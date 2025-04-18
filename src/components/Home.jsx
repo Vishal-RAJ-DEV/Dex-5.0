@@ -168,7 +168,7 @@ const Home = () => {
       </video>
       
       <motion.main 
-        className="relative z-10 flex sm:flex-wrap flex-col sm:flex-row items-center justify-around min-h-screen text-center p-5"
+        className="relative z-10 flex sm:flex-wrap flex-col sm:flex-row items-center justify-around   min-h-screen text-center p-5"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -181,7 +181,7 @@ const Home = () => {
           <motion.div variants={containerVariants}>
             <img 
               ref={logoRef}
-              className='lg:h-100 lg:w-50 h-60 w-30  cursor-pointer' 
+              className='lg:h-100 lg:w-50 h-40 w-30  cursor-pointer' 
               src={dex} 
               alt="logo" 
             />
@@ -189,7 +189,7 @@ const Home = () => {
         </div>
 
         <div className='flex flex-col justify-around items-center max-w-7xl'>
-          <div className="flex flex-col space-x-4 sm:gap-12 mt-4">
+          <div className="flex flex-col space-x-4 sm:gap-9 mt-4">
             <motion.div 
               className="flex flex-col items-center sm:mt-8"
               variants={textVariants}
