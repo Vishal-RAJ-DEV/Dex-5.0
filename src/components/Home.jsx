@@ -252,7 +252,7 @@ const Home = () => {
               variants={containerVariants}
             >
               <motion.button 
-                className=" border-2 border-teal-400 lg:px-8 px-3 py-2 lg:py-4 backdrop-blur-lg text-glow rounded-2xl text-xl font-semibold shadow-lg shadow-teal-500/30 hover:shadow-xl"
+                className=" border-2 border-teal-400 lg:px-8 px-3 py-2 lg:py-4 backdrop-blur-lg  rounded-4xl text-xl font-semibold shadow-lg shadow-teal-500 hover:shadow-xl cursor-pointer"
                 variants={buttonVariants}
                 whileHover="hover"
                 whileTap="tap"
@@ -260,7 +260,7 @@ const Home = () => {
                 Register Now
               </motion.button>
               <motion.button 
-                className="border-2 border-sky-500 backdrop-blur-lg text-white text-glow lg:px-8 px-3 py-2 lg:py-4 rounded-2xl text-xl font-semibold shadow-lg shadow-sky-400 hover:shadow-xl"
+                className="border-2 border-sky-500 backdrop-blur-lg text-white  lg:px-8 px-3 py-2 lg:py-4 rounded-4xl text-xl font-semibold shadow-lg shadow-sky-400 hover:shadow-xl cursor-pointer"
                 variants={buttonVariants}
                 whileHover="hover"
                 whileTap="tap"
