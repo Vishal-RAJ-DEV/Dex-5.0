@@ -158,7 +158,7 @@ const Home = () => {
       loop
       muted
       playsInline
-      className='absolute top-0 left-0 w-full  h-full object-cover z-0'
+      className='absolute top-0 left-0 w-full min-h-screen sm:h-full object-cover z-0'
       style={{
         filter : 'brightness(0.3)'
       }}
